@@ -1,0 +1,26 @@
+/* | Root Selector for Global Variables | */
+:root {
+  --primary-background-color: #000; /* Black */
+  --header-font-color: #fff; /* White */
+  --link-download-font-color: #7fffd4; /* Aquamarine */
+}
+
+/* | Default Body Styling | */
+body {
+  background-color: var(--primary-background-color); /* Black */
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* | Header Styling | */
+.header-primary {
+  font-weight: normal;
+  font-size: 50px;
+  color: var(--header-font-color); /* White */
+}
+
+/* | Link Styling | */
+.link-download {
+  color: var(--link-download-font-color); /* Aquamarine */
+  font-size: 16px;
+}
